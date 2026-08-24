@@ -11,6 +11,7 @@ result = fibonacci_with_list(n)
 print("Fibonacci series with ", n, "elements: ", result)
 '''
 
+'''
 #Variables
 def fibonacci_with_vars(n):
     a, b = 0, 1
@@ -21,3 +22,14 @@ def fibonacci_with_vars(n):
 n = 10
 print(f"Fibonacci series with {n} values: ")
 fibonacci_with_vars(n)
+'''
+#Generator
+def fib_gen(n):
+    a, b = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
+
+n = 50
+result = list(fib_gen(n))
+print(f'Fibonacci series with {n} elements: ', result)
