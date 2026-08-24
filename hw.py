@@ -1,3 +1,6 @@
-foo = 140
-bar = 160 - foo
-print(bar)
+print('Hello world!')
+print('What is your name?')
+myName = input()
+print('Nice to meet you, ' + myName)
+print('The length of your name is:')
+print(len(myName))
