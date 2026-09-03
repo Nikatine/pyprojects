@@ -1,4 +1,6 @@
-my_set = {1, 2, 3, 4, 5, 6}
-my_set.add(5)
+import math as m
 
-print(my_set)
+num = 128
+
+m.sqrt(num) 
+print(num)
