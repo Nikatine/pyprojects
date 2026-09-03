@@ -1,7 +1,4 @@
-text="I'm"
+my_set = {1, 2, 3, 4, 5, 6}
+my_set.add(5)
 
-print(repr(text))
-
-print('""learning""')
-
-print('"""python"""')
+print(my_set)
